@@ -11,8 +11,8 @@ repositories:
 # MicroROS
   uros/rcl:
     type: git
-    url: https://github.com/micro-ROS/rcl
-    version: galactic
+    url: https://github.com/eranroll/rcl.git
+    version: deffb6614c3e140e40bea4600f6c97fa82aece87
   uros/rclc:
     type: git
     url: https://github.com/ros2/rclc
