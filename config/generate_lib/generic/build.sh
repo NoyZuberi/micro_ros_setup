@@ -23,6 +23,8 @@ pushd $FW_TARGETDIR/mcu_ws >/dev/null
 
 	rm -rf build install log
 	
+	. /opt/ros/galactic/setup.sh
+	
    	colcon build \
 		--merge-install \
 		--packages-ignore-regex=.*_cpp \
